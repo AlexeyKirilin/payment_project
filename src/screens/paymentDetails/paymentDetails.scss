@@ -1,0 +1,59 @@
+// * {
+//     margin: 0 auto;
+//     padding: 0 auto;
+//     box-sizing: border-box
+// }
+
+.container__payment {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.payment__header {
+    font-size: 26px;
+}
+
+
+.paymentDetails__name {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.paymentDetails__service {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.paymentDetails__price {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.paymentDetails__id {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.header__payment-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// .back__arrow {
+//     width: 100px;
+//     height: 100px;
+// }
+
+.img__arrow {
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(257deg, #f59c07, #f57507);
+    border-radius: 50%;
+}
+
+.paymentDetails__wrapper {
+    margin-left: 50px;
+}
