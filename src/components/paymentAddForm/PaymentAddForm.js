@@ -19,14 +19,6 @@ const Modal = ({active, setActive}) => {
 
     const dispatch = useDispatch();
 
-    // const onSubmitHandler = (e) => {
-    //     e.preventDefault();
-    //     const newPayment = {
-    //         name: paymentName,
-    //         service: paymentService,
-    //         price: paymemtPrice
-    //     }
-    // }
 
     useEffect(() => {
         if(nameError || serviceError || priceError) {
@@ -47,7 +39,7 @@ const Modal = ({active, setActive}) => {
         } else {
             setNameError('')
         }
-        // setNameError('')
+        
     }
 
     const serviceHandler = (e) => {
