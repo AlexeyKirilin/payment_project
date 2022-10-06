@@ -2,3 +2,4 @@
 - React
 - Redux 
 - Redux-saga
+- Axios
